@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Web", "Mobsway.Web\Mobsway.Web.csproj", "{513A656A-7F22-4DA3-A520-4AB7375AF178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Web.Tests", "Mobsway.Web.Tests\Mobsway.Web.Tests.csproj", "{1E5BF919-5423-4D28-AF3C-60C34A325EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Web.Api", "Mobsway.Web.Api\Mobsway.Web.Api.csproj", "{5B399E47-D8C8-42F1-B0E9-BE370727B9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Web.Api.Tests", "Mobsway.Web.Api.Tests\Mobsway.Web.Api.Tests.csproj", "{5F34C894-7737-4FB4-B1E1-7B24E0F0F905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Business.Entity", "Mobsway.Business.Entity\Mobsway.Business.Entity.csproj", "{90C0A89E-604D-48EE-B259-6116A3EC06EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Data.Persistence", "Mobsway.Data.Persistence\Mobsway.Data.Persistence.csproj", "{FB1C47EB-3E0C-4918-9C0E-3D845F9C927D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobsway.Utilities", "Mobsway.Utilities\Mobsway.Utilities.csproj", "{1FF1ACED-AB63-41AD-8B86-552161057DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513A656A-7F22-4DA3-A520-4AB7375AF178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513A656A-7F22-4DA3-A520-4AB7375AF178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513A656A-7F22-4DA3-A520-4AB7375AF178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513A656A-7F22-4DA3-A520-4AB7375AF178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5BF919-5423-4D28-AF3C-60C34A325EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5BF919-5423-4D28-AF3C-60C34A325EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5BF919-5423-4D28-AF3C-60C34A325EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5BF919-5423-4D28-AF3C-60C34A325EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B399E47-D8C8-42F1-B0E9-BE370727B9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B399E47-D8C8-42F1-B0E9-BE370727B9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B399E47-D8C8-42F1-B0E9-BE370727B9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B399E47-D8C8-42F1-B0E9-BE370727B9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F34C894-7737-4FB4-B1E1-7B24E0F0F905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F34C894-7737-4FB4-B1E1-7B24E0F0F905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F34C894-7737-4FB4-B1E1-7B24E0F0F905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F34C894-7737-4FB4-B1E1-7B24E0F0F905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C0A89E-604D-48EE-B259-6116A3EC06EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C0A89E-604D-48EE-B259-6116A3EC06EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C0A89E-604D-48EE-B259-6116A3EC06EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C0A89E-604D-48EE-B259-6116A3EC06EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1C47EB-3E0C-4918-9C0E-3D845F9C927D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1C47EB-3E0C-4918-9C0E-3D845F9C927D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1C47EB-3E0C-4918-9C0E-3D845F9C927D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1C47EB-3E0C-4918-9C0E-3D845F9C927D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF1ACED-AB63-41AD-8B86-552161057DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF1ACED-AB63-41AD-8B86-552161057DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF1ACED-AB63-41AD-8B86-552161057DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF1ACED-AB63-41AD-8B86-552161057DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

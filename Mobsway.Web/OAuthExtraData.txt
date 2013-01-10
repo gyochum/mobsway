@@ -1,0 +1,9 @@
+﻿When the user attempts to sign in an external provider and are successful, there is an data dictionary available that provides extra data for the developer.  
+This data can be added to the authentication ticket for future use.
+
+Google: email, country, firstName, lastName
+Microsoft: name, link, gender, firstname, lastname
+Facebook: username (which is really an email address), name, link (URL to their facebook page), gender, birthday
+Twitter: name, location, description, url (URL to their Twitter page)
+Yahoo: email, fullName
+LinkedIn: name, headline, summary, industry

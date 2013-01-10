@@ -1,0 +1,9 @@
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Mobsway.Business.Entity.dll
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Mobsway.Business.Entity.pdb
+C:\projects\mobsway\Mobsway.Business.Entity\obj\Debug\Mobsway.Business.Entity.csprojResolveAssemblyReference.cache
+C:\projects\mobsway\Mobsway.Business.Entity\obj\Debug\Mobsway.Business.Entity.dll
+C:\projects\mobsway\Mobsway.Business.Entity\obj\Debug\Mobsway.Business.Entity.pdb
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Newtonsoft.Json.xml
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Mobsway.Utilities.dll
+C:\projects\mobsway\Mobsway.Business.Entity\bin\Debug\Mobsway.Utilities.pdb

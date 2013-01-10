@@ -1,0 +1,19 @@
+﻿@model Mobsway.Web.Models.PollViewModel
+
+@{
+    ViewBag.Title = "Pics";
+}
+
+<h2>Would you like to associate pics with your poll options? (You may temporarily be redirected to 3rd party site for authentication)</h2>
+
+@using(Html.BeginForm()){
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.None) <text>None</text>
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.Facebook) <text>Facebook</text>
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.Flickr) <text>Flickr</text>
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.Imgur) <text>Imgur</text>
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.ShutterFly) <text>ShutterFly</text>
+    @Html.RadioButtonFor(m => m.Poll.ImageProvider, Mobsway.Business.Entity.ImageProviderTypes.Twitter) <text>Twitter</text>
+    @Html.HiddenFor(m => m.Poll.PollNumber)
+    <br /><br />
+    <input type="submit" value="continue" />
+}

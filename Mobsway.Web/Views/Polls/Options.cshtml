@@ -1,0 +1,12 @@
+﻿@model Mobsway.Web.Models.PollViewModel
+
+@{
+    ViewBag.Title = "Options";
+}
+
+<h2>Options</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.Poll.PollNumber)
+}

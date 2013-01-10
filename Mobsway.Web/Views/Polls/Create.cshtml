@@ -1,0 +1,35 @@
+﻿@using System.Web.Mvc.Html5
+@model Mobsway.Web.Models.PollViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create a Poll</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(m => m.Poll.HashTag, "Provide a Hashtag for the poll:")  <br />
+    @Html.TextBoxFor(m => m.Poll.HashTag)
+    @Html.ValidationMessageFor(m => m.Poll.HashTag)
+    <br /><br />
+    @Html.LabelFor(m => m.Poll.Description, "Add a description for your poll (optional):") <br />
+    @Html.TextAreaFor(m => m.Poll.Description)
+    @Html.ValidationMessageFor(m => m.Poll.Description)
+    <br /><br />
+    @Html.LabelFor(m => m.Poll.StartDate, "Start Date:") <br />
+    @Html.Html5TextBoxFor(m => m.Poll.StartDate, InputTypes.InputType.Date)
+    @Html.ValidationMessageFor(m => m.Poll.StartDate)
+     <br /><br />
+    @Html.LabelFor(m => m.Poll.EndDate, "End Date:") <br />
+    @Html.Html5TextBoxFor(m => m.Poll.EndDate, InputTypes.InputType.Date)
+    @Html.ValidationMessageFor(m => m.Poll.EndDate)
+    <br /><br />
+    @Html.CheckBoxFor(m => m.Poll.IsActive, new { @checked = "checked" }) 
+    <text>Poll Active?</text>    
+    <br /><br />
+    @Html.CheckBoxFor(m => m.PollHasOptions) 
+    <text>Do you want to define a list valid poll choices?</text> 
+    <br /><br />
+    <input type="submit" name="btnCreate" id="btnCreate" value="Create Poll" />
+}
