@@ -1,5 +1,0 @@
-C:\projects\mobsway\Mobsway.Utilities\bin\Debug\Mobsway.Utilities.dll
-C:\projects\mobsway\Mobsway.Utilities\bin\Debug\Mobsway.Utilities.pdb
-C:\projects\mobsway\Mobsway.Utilities\obj\Debug\Mobsway.Utilities.dll
-C:\projects\mobsway\Mobsway.Utilities\obj\Debug\Mobsway.Utilities.pdb
-C:\projects\mobsway\Mobsway.Utilities\obj\Debug\Mobsway.Utilities.csprojResolveAssemblyReference.cache
